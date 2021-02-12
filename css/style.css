@@ -135,7 +135,7 @@ figure {
 
 .fh5co-cover,
 .fh5co-hero {
-  position: relative;
+  position: absolute;
   height: 800px;
 }
 @media screen and (max-width: 768px) {
@@ -352,7 +352,7 @@ figure {
 
 #fh5co-header-section {
   padding: 0;
-  position: relative;
+  position: st;
   left: 0;
   width: 100%;
   z-index: 1022;
@@ -1452,13 +1452,6 @@ figure {
   .row-top-padded-lg {
     padding-top: 2em;
   }
-}
-
-.clickedelement {
-  height:500px; background: #179
-}
-.wr2 {
-  height: 500px; background: #38b
 }
 
 .row-bottom-padded-md {
