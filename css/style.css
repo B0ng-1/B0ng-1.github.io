@@ -1004,6 +1004,7 @@ figure {
 
 .fh5co-testimonial, .fh5co-team {
   position: relative;
+  left: 0;
   width: 315px;
   background: #fff;
   padding: 10px;
@@ -1451,6 +1452,13 @@ figure {
   .row-top-padded-lg {
     padding-top: 2em;
   }
+}
+
+.clickedelement {
+  height:500px; background: #179
+}
+.wr2 {
+  height: 500px; background: #38b
 }
 
 .row-bottom-padded-md {

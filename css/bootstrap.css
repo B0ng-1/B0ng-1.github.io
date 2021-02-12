@@ -2623,6 +2623,14 @@ pre code {
     float: left;
   }
 
+  .clickedelement {
+    height:500px; background: #179
+  }
+  .wr2 {
+    height: 500px; background: #38b
+  }
+
+
   .col-lg-1 {
     width: 8.33333%;
   }
