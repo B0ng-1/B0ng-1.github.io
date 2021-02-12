@@ -1251,7 +1251,8 @@ figure {
 }
 
 .fh5co-offcanvas {
-  fixed: right;
+  position: fixed;
+  right: 0;
   overflow: hidden;
 }
 .fh5co-offcanvas #fh5co-wrapper {
