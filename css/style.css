@@ -136,6 +136,7 @@ figure {
 .fh5co-cover,
 .fh5co-hero {
   position: absolute;
+  right: 0;
   height: 800px;
 }
 @media screen and (max-width: 768px) {
@@ -1250,6 +1251,7 @@ figure {
 }
 
 .fh5co-offcanvas {
+  fixed: right;
   overflow: hidden;
 }
 .fh5co-offcanvas #fh5co-wrapper {
