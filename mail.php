@@ -4,10 +4,10 @@ require_once('phpmailer/PHPMailerAutoload.php');
 $mail = new PHPMailer;
 $mail->CharSet = 'utf-8';
 
-$name = $_POST['Name'];
-$phone = $_POST['Text'];
-$email = $_POST['Email'];
-
+$name = $_POST['name'];
+$text = $_POST['text'];
+$email = $_POST['email'];
+print_r($_POST);
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
@@ -29,7 +29,7 @@ $mail->addAddress('yaroslav.nefedov.03@mail.ru');     // Кому будет у�
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Письмо с сайта';
-$mail->Body    = '' .$name . ' оставил сообщение, его почту' .$phone. '<br>Почта этого пользователя: ' .$email;
+$mail->Body    = '' .$name . ' оставил сообщение' $text '<br>Почта этого пользователя: '$email;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
