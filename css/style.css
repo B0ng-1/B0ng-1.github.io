@@ -178,7 +178,7 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
@@ -191,7 +191,7 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover_2 {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
@@ -1245,7 +1245,7 @@ figure {
 }
 
 #fh5co-wrapper {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   position: relative;
 }
 
@@ -1260,7 +1260,7 @@ figure {
   position: relative;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s;
+  transition: 1s 0.5s;
 }
 .fh5co-offcanvas #fh5co-page {
   -moz-transform: translateX(-240px);
@@ -1455,6 +1455,7 @@ figure {
 }
 
 .row-bottom-padded-md {
+  margin: 2%;
   padding-bottom: 4em;
 }
 @media screen and (max-width: 768px) {
